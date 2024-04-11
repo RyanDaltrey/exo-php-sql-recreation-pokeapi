@@ -22,12 +22,15 @@ class Database{
             return self::$connection;
         }
 
-        public static function getPokemons(){
+        public static function getPokemon(){
             $db = Database::connect();
-            $recupererPokemon = $db->query ("SELECT num_poke, nom, taille, description, masse, hp, attack, defence, vitesse, defence_spe, attack_spe, img_poke, generation,version_app, habitat, competences, categorie FROM pokemon");
-            
+    
+            $executerRequeteSQL = $db->query("SELECT img_poke, num_poke, nom, taille, description, hp, attack, defence, vitesse, attack_spe, defence_spe, generation FROM pokemon 
+            WHERE num_poke = 1;");
+    
+            $recupererPokemon = $executerRequeteSQL;
+    
             return $recupererPokemon;
-        
         }
 };
 ?>
