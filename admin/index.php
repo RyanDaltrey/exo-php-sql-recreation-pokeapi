@@ -22,20 +22,7 @@
 
             while($pokemon = $appelDeLaFonctionGetPokemon->fetch()){
                             
-            echo '<div id="content_pokemon"><img id="pokemons" src="images/'.$pokemon['img_poke']. '"></div>';
-            echo '<a href="detailPokemon.php?num_poke=' . $pokemon['num_poke'] .'" class="btn btn-info btn-sm">Détails</a>';
-                            // echo'<td>'.$pokemon["img_poke"].'</td>';
-                            // echo '<td>'.$pokemon["nom"].'</td>';
-                            // echo '<td>'.$pokemon["taille"].'</td>';
-                            // echo '<td>'.$pokemon["description"].'</td>';
-                            // echo '<td>'.$pokemon["hp"].'</td>';
-                            // echo '<td>'.$pokemon["attack"].'</td>';
-                            // echo '<td>'.$pokemon["defence"].'</td>';
-                            // echo '<td>'.$pokemon["vitesse"].'</td>';
-                            // echo '<td>'.$pokemon["attack_spe"].'</td>';
-                            // echo '<td>'.$pokemon["defence_spe"].'</td>';
-                            // echo '<td>'.$pokemon["generation"].'</td>';
-
+            echo '<div id="content_pokemon"> <a href="detailPokemon.php?num_poke=' . $pokemon['num_poke'].'" > <img id="pokemons" src="images/'.$pokemon['img_poke']. '"> </a> </div>';
             }
         ?>
                    

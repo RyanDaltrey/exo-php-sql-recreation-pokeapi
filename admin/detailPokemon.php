@@ -18,7 +18,7 @@ $id_pokemon = $_GET['num_poke'];
     $requete->execute(array('num_poke'=>$id_pokemon));
     $fiche = $requete->fetch();
 
-    var_dump($fiche);
+    // var_dump($fiche);
 ?>
 
 
@@ -29,14 +29,13 @@ $id_pokemon = $_GET['num_poke'];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Détails Pokémons</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
-<div class="container mt-5">
-    <h2 class="mb-4">Détails Pokémons</h2>
-    <div class="card">
-        <div class="card-body">
-            <!-- <img src="images/'.$fiche['img_poke']. '" <?php echo $fiche['img_poke']; ?>> -->
+<div id="content_details">
+            <img id="image_pokemon_detail" src="./images/<?php echo $fiche['img_poke']; ?>">
+    <div id="infos_pokemon">       
             <h5 class="card-title"><?php echo $fiche['nom']; ?></h5>
             <p class="card-text"> Taille <?php echo $fiche['taille']; ?>cm</p>
             <p class="card-text"><?php echo $fiche['description']; ?></p>
@@ -47,9 +46,10 @@ $id_pokemon = $_GET['num_poke'];
             <p class="card-text">Attack_spe : <?php echo $fiche['attack_spe']; ?></p>
             <p class="card-text">Defence_spe : <?php echo $fiche['defence_spe']; ?></p>
             <p class="card-text">Generation : <?php echo $fiche['generation']; ?></p>
-        </div>
-    </div>
+    </div>         
 </div>
+
+
 
 </body>
 </html>

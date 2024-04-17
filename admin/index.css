@@ -23,4 +23,21 @@
     margin: 30px;
 }
 
+#content_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
 
+#infos_pokemon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#image_pokemon_detail{
+    width: 400px;
+    height: 400px;
+}
