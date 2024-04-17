@@ -23,6 +23,7 @@
             while($pokemon = $appelDeLaFonctionGetPokemon->fetch()){
                             
             echo '<div id="content_pokemon"><img id="pokemons" src="images/'.$pokemon['img_poke']. '"></div>';
+            echo '<a href="detailPokemon.php?num_poke=' . $pokemon['num_poke'] .'" class="btn btn-info btn-sm">Détails</a>';
                             // echo'<td>'.$pokemon["img_poke"].'</td>';
                             // echo '<td>'.$pokemon["nom"].'</td>';
                             // echo '<td>'.$pokemon["taille"].'</td>';
