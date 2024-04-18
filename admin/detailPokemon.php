@@ -77,6 +77,7 @@ $id_pokemon = $_GET['num_poke'];
         <div id="infos_pokemon">       
             <p class="card-text"> Taille <?php echo $fiche['taille']; ?>cm</p>
             <p class="card-text"><?php echo $fiche['description']; ?></p>
+            <p class="card-text">Masse : <?php echo $fiche['masse']; ?></p>
             <p class="card-text">Hp : <?php echo $fiche['hp']; ?></p>
             <p class="card-text">Attack : <?php echo $fiche['attack']; ?></p>
             <p class="card-text">Defence : <?php echo $fiche['defence']; ?></p>
