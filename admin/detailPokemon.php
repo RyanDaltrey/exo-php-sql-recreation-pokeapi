@@ -30,13 +30,51 @@ $id_pokemon = $_GET['num_poke'];
     <title>Détails Pokémons</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
+    <style>
+        .pokeball {
+    position: relative;
+    margin: 30px;
+  }
+  
+  .pokeball .pokeball_ouvert {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+  }
+  
+  .pokeball:hover .pokeball_ouvert {
+    display: block;
+  }
+  
+  .pokeball:hover .pokeball_ouvert {
+      display: block;
+  }
+
+  .pokeball_image {
+    width: 80px;
+    height: 80px;
+  }
+
+  </style>
 </head>
 <body>
 
+    <div class="pokeball">
+      <div class="pokeball_ferme">
+        <img class="pokeball_image" src="./images/pokeball.png"  alt="pokeball_ferme">
+      </div>
+      <div class="pokeball_ouvert">
+        <a href="index.php"><img class="pokeball_image" src="./images/pokeball_ouvert.png" alt="pokeball_ouvert"></a>
+      </div>
+    </div>
+    
 <div id="content_details">
+    <div id="pokemon_nom">
+            <h5 class="card-titre"><?php echo $fiche['nom']; ?></h5>
             <img id="image_pokemon_detail" src="./images/<?php echo $fiche['img_poke']; ?>">
-    <div id="infos_pokemon">       
-            <h5 class="card-title"><?php echo $fiche['nom']; ?></h5>
+    </div>
+        <div id="infos_pokemon">       
             <p class="card-text"> Taille <?php echo $fiche['taille']; ?>cm</p>
             <p class="card-text"><?php echo $fiche['description']; ?></p>
             <p class="card-text">Hp : <?php echo $fiche['hp']; ?></p>
@@ -46,7 +84,7 @@ $id_pokemon = $_GET['num_poke'];
             <p class="card-text">Attack_spe : <?php echo $fiche['attack_spe']; ?></p>
             <p class="card-text">Defence_spe : <?php echo $fiche['defence_spe']; ?></p>
             <p class="card-text">Generation : <?php echo $fiche['generation']; ?></p>
-    </div>         
+        </div>         
 </div>
 
 

@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+<div id="page_accueil">
+    <div id="pokemon_header">
+        <img src="images/pokemon_logo_accueil.png" alt="header_pokemon">
+    </div>
 
-<div id="pokemon_header">
-<img src="images/logo_pokemon.png" alt="header_pokemon">
-</div>
-
-<div id="poke_image">
+    <div id="poke_image">
       
         <?php
 
@@ -20,12 +20,12 @@
                                         //stockage de database et de la fonction                         
             $appelDeLaFonctionGetPokemon = Database::getPokemon();
 
-            while($pokemon = $appelDeLaFonctionGetPokemon->fetch()){
-                            
+            while($pokemon = $appelDeLaFonctionGetPokemon->fetch()){                
             echo '<div id="content_pokemon"> <a href="detailPokemon.php?num_poke=' . $pokemon['num_poke'].'" > <img id="pokemons" src="images/'.$pokemon['img_poke']. '"> </a> </div>';
             }
         ?>
                    
+    </div>
 </div>
 </body>
 </html>
