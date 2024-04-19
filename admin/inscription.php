@@ -28,7 +28,7 @@ session_start();
         </div>
         <div>
                 <label for="mdp">Mot de passe :</label>
-                <input type="text" id="mdp_inscription" name="mdp" required>
+                <input type="password" id="mdp_inscription" name="mdp" required>
         </div>
                 <input type="submit" value="S'inscrire">
     </form>
