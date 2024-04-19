@@ -54,39 +54,47 @@ $id_pokemon = $_GET['num_poke'];
   .pokeball_image {
     width: 80px;
     height: 80px;
+    padding:6px;
   }
 
+ .pokeball_image_ouvert{
+    width: 80px;
+    height: 80px;
+
+ }
   </style>
 </head>
 <body>
+    <div id="page_details">
 
-    <div class="pokeball">
-      <div class="pokeball_ferme">
-        <img class="pokeball_image" src="./images/pokeball.png"  alt="pokeball_ferme">
-      </div>
-      <div class="pokeball_ouvert">
-        <a href="index.php"><img class="pokeball_image" src="./images/pokeball_ouvert.png" alt="pokeball_ouvert"></a>
-      </div>
+        <div class="pokeball">
+        <div class="pokeball_ferme">
+            <img class="pokeball_image" src="./images/pokeball.png"  alt="pokeball_ferme">
+        </div>
+        <div class="pokeball_ouvert">
+            <a href="index.php"><img class="pokeball_image_ouvert" src="./images/pokeball_ouvert.png" alt="pokeball_ouvert"></a>
+        </div>
+        </div>
+        
+        <div id="content_details">
+            <div id="pokemon_nom">
+                    <img id="image_pokemon_detail" src="./images/<?php echo $fiche['img_poke']; ?>">
+            </div>
+                <div id="infos_pokemon">  
+                    <h5 class="card-titre"><?php echo $fiche['nom']; ?></h5>     
+                    <p class="card-text"> Taille <?php echo $fiche['taille']; ?>cm</p>
+                    <p class="card-text"><?php echo $fiche['description']; ?></p>
+                    <p class="card-text">Masse : <?php echo $fiche['masse']; ?></p>
+                    <p class="card-text">Hp : <?php echo $fiche['hp']; ?></p>
+                    <p class="card-text">Attack : <?php echo $fiche['attack']; ?></p>
+                    <p class="card-text">Defence : <?php echo $fiche['defence']; ?></p>
+                    <p class="card-text">Vitesse : <?php echo $fiche['vitesse']; ?></p>
+                    <p class="card-text">Attack_spe : <?php echo $fiche['attack_spe']; ?></p>
+                    <p class="card-text">Defence_spe : <?php echo $fiche['defence_spe']; ?></p>
+                    <p class="card-text">Generation : <?php echo $fiche['generation']; ?></p>
+                </div>         
+        </div>
     </div>
-    
-<div id="content_details">
-    <div id="pokemon_nom">
-            <h5 class="card-titre"><?php echo $fiche['nom']; ?></h5>
-            <img id="image_pokemon_detail" src="./images/<?php echo $fiche['img_poke']; ?>">
-    </div>
-        <div id="infos_pokemon">       
-            <p class="card-text"> Taille <?php echo $fiche['taille']; ?>cm</p>
-            <p class="card-text"><?php echo $fiche['description']; ?></p>
-            <p class="card-text">Masse : <?php echo $fiche['masse']; ?></p>
-            <p class="card-text">Hp : <?php echo $fiche['hp']; ?></p>
-            <p class="card-text">Attack : <?php echo $fiche['attack']; ?></p>
-            <p class="card-text">Defence : <?php echo $fiche['defence']; ?></p>
-            <p class="card-text">Vitesse : <?php echo $fiche['vitesse']; ?></p>
-            <p class="card-text">Attack_spe : <?php echo $fiche['attack_spe']; ?></p>
-            <p class="card-text">Defence_spe : <?php echo $fiche['defence_spe']; ?></p>
-            <p class="card-text">Generation : <?php echo $fiche['generation']; ?></p>
-        </div>         
-</div>
 
 
 
