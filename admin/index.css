@@ -1,11 +1,95 @@
+@font-face {
+    font-family: PokemonLight;
+    src: url(./fonts/Pokemon\ Hollow.ttf);
+  }
+
+@font-face {
+    font-family: PokemonDark;
+    src: url(./fonts/Pokemon\ Solid.ttf);
+}
 #page_accueil{
-    background-image: url(./images/background_blue.png);
-    background-size: cover;
+    background-color: rgb(145, 10, 103);
+
+}
+
+#rejoignez_nous{
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    margin-top: 200px;
+    margin-left: 50px;
+    position: relative;
+
+
+}
+
+#titre_accueil{
+    font-size: 50px;
+    letter-spacing: 6px;
+    color: white;
+    font-family: PokemonDark;
+}
+
+#boutton_inscription{
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px solid grey;
+    border: none;
+    background-color: rgb(60, 7, 83);
+    color: white;
+    font-family: PokemonDark;
+}
+#option_page_accueil{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    font-family: PokemonDark;
+}
+
+.boutton_option{
+    font-size: 12px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(60, 7, 83);
+    color: white;
+    font-family: PokemonDark;
+    letter-spacing: 6px;
+}
+
+.boutton_option:hover{
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#boutton_inscription:hover{
+    
+}
+
+#content_page_accueil{
+ display: flex;
+}
+
+#content_image_3d_pikachu{
+position: absolute;
+margin-left: 820px;
+}
+
+
+#image_3d_pikachu{
+    position: absolute;
+}
+
+#page_index{
+    /* background-image: url(./images/background_blue.png); */
+    /* background-size: cover; */
+    background-color: rgb(3, 6, 55);
 }
 
 
 #pokemon_header{
-    height: 200px;
+    height: 300px;
     display: flex;
     justify-content: center;
 }
@@ -23,14 +107,14 @@
 }
 
 #content_pokemon{
-    border: 1px solid black;
+    border: 1px solid rgb(60, 7, 83);
     border-radius: 50px;
     margin: 30px;
 }
-
-#page_details{
-   
+#body_details_page{
+    background-color: rgb(114, 4, 85);
 }
+
 
 
 #content_details{
@@ -38,6 +122,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .card-titre{

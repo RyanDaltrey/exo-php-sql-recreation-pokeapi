@@ -64,7 +64,7 @@ $id_pokemon = $_GET['num_poke'];
  }
   </style>
 </head>
-<body>
+<body id="body_details_page">
     <div id="page_details">
 
         <div class="pokeball">

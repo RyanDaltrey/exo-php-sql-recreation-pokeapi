@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<div id="page_accueil">
+<div id="page_index">
     <div id="pokemon_header">
-        <img src="images/pokemon_logo_accueil.png" alt="header_pokemon">
+        <a href="accueil.php"><img src="images/pokemon_logo_accueil.png" alt="header_pokemon"></a>
     </div>
 
     <div id="poke_image">
