@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    box-sizing: none;
 }
 
 @font-face {
@@ -111,17 +112,16 @@ margin-left: 820px;
    position: absolute;
 }
 
-
-
 #page_index{
-    background-color: rgb(3, 6, 55);
+    background-color: rgb(60, 7, 83);
 }
 
 
 #pokemon_header{
-    height: 300px;
+    /* width: 800px; */
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 
@@ -132,15 +132,28 @@ margin-left: 820px;
     align-items: center;
 }
 
+#logo{
+    width: 600px;
+}
+
 #pokemons{
     width: 300px;
 }
 
 #content_pokemon{
-    border: 1px solid rgb(60, 7, 83);
     border-radius: 50px;
-    margin: 30px;
+    margin:10px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 5px 5px rgb(3, 6, 55);
 }
+
+#pikachu_footer_3d_index{
+    left: 7%;
+    top: 161.2%;
+   position: absolute;
+   
+}
+
 #body_details_page{
     background-color: rgb(114, 4, 85);
 }

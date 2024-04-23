@@ -6,10 +6,10 @@
     <title>Pokédex</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
-<div id="page_index">
+<body id="page_index">
+<div id="content_index">
     <div id="pokemon_header">
-        <a href="accueil.php"><img src="images/pokemon_logo_accueil.png" alt="header_pokemon"></a>
+        <a href="accueil.php"><img src="images/pokemon_logo_accueil.png" alt="header_pokemon" id="logo"></a>
     </div>
 
     <div id="poke_image">
@@ -27,5 +27,15 @@
                    
     </div>
 </div>
+<footer>
+        <div id="footer_block">
+                <div id="pikachu_footer_3d_index">
+                    <img src="./images/pikachu_footer_3d.png" alt="pikachu_footer_3d">
+                </div>
+            <p class="text_footer">Copy Right©</p>
+            <p class="text_footer">Mentions Legales</p>
+            <p class="text_footer">Contactez-nous</p>
+        </div>
+    </footer>
 </body>
 </html>
