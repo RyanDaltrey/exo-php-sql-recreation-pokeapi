@@ -69,7 +69,7 @@ $id_pokemon = $_GET['num_poke'];
 
         <div class="pokeball">
         <div class="pokeball_ferme">
-            <img class="pokeball_image" src="./images/pokeball.png"  alt="pokeball_ferme">
+            <img class="pokeball_image" src="./images/pokeball_ferme.png"  alt="pokeball_ferme">
         </div>
         <div class="pokeball_ouvert">
             <a href="index.php"><img class="pokeball_image_ouvert" src="./images/pokeball_ouvert.png" alt="pokeball_ouvert"></a>
