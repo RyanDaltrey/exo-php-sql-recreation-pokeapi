@@ -23,30 +23,30 @@ session_start();
         </div>
     </nav>
     <form method="POST" action="" class="formulaire">
-        <div id="main_inscription">
-                <div id="image_ondine_inscription">
-                    <img src="./images/ondine_3d.png" alt="ondine_3d" class="image_personnage_3d">
+        <div id="main_formulaire">
+                <div id="image_personnages_3d">
+                    <img src="./images/ondine_3d.png" alt="ondine_3d" class="personnages_3d">
                 </div>
-            <div id="form_inscription">   
+            <div id="form_content">   
                 <div id="content_input"> 
                     <div>
-                            <label for="nom" class="label_input_inscription">Nom :</label>
-                            <input type="text" class="input_inscription" name="nom" required>
+                            <label for="nom" class="label_input">Nom :</label>
+                            <input type="text" class="input_form" name="nom" required>
                     </div>
                     <div>
-                            <label for="penom" class="label_input_inscription">Prenom :</label>
-                            <input type="text" class="input_inscription" name="prenom" required>
+                            <label for="penom" class="label_input">Prenom :</label>
+                            <input type="text" class="input_form" name="prenom" required>
                     </div>
                     <div>
-                            <label for="email" class="label_input_inscription">Email :</label>
-                            <input type="text" class="input_inscription" name="email" required>
+                            <label for="email" class="label_input">Email :</label>
+                            <input type="text" class="input_form" name="email" required>
                     </div>
                     <div>
-                            <label for="mdp" class="label_input_inscription">Mot de passe :</label>
-                            <input type="password" class="input_inscription" name="mdp" required>
+                            <label for="mdp" class="label_input">Mot de passe :</label>
+                            <input type="password" class="input_form" name="mdp" required>
                     </div>
                 </div>
-                    <div id="boutton_inscrire">              
+                    <div id="boutton_submit_block">              
                         <a href="connexion.php"><input type="submit" value="S'inscrire" class="boutton_submit"></a>
                     </div>
             </div>    
@@ -54,7 +54,7 @@ session_start();
                 
     </form>
     <footer>
-        <div id="footer_block">
+        <div id="footer_block_inscription">
                 <div id="pikachu_footer_3d_inscription">
                     <img src="./images/pikachu_footer_3d.png" alt="pikachu_footer_3d">
                 </div>

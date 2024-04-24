@@ -33,7 +33,7 @@
         </div>
     </div>
     <footer>
-        <div id="footer_block">
+        <div id="footer_block_index">
                 <div id="pikachu_footer_3d_index">
                     <img src="./images/pikachu_footer_3d.png" alt="pikachu_footer_3d">
                 </div>

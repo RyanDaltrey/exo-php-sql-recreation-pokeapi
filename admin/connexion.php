@@ -12,19 +12,48 @@
     <link rel="stylesheet" href="index.css">
     <title>Connexion</title>
 </head>
-<body>
+<body id="page_connexion">
+    <nav>
+        <div id="nav_page_inscription">
+            <a href="index.php" ><button class="boutton_option">Les Pokémons</button></a>
+            <div>
+                <h1 id="titre_inscription">Connexion</h1>
+            </div>
+            <a href="inscription.php"><button class="boutton_option">Inscription</button></a>
+        </div>
+    </nav>
     <form action="" method="POST">
-    <div>
-                <label for="email">Email :</label>
-                <input type="text" id="email_connexion" name="email" required>
-        </div>
-        <div>
-                <label for="mdp">Mot de passe :</label>
-                <input type="password" id="mdp_connexion" name="mdp" required>
-        </div>
-                <input type="submit" value="Let's GO!">
+        <div id="main_formulaire">
+            <div id="image_personnages_3d">
+                <img src="./images/pierre_3d.png" alt="pierre_3d" class="personnages_3d">
+            </div>
+            <div id="form_content"> 
+                <div id="content_input">
+                    <div>
+                        <label for="email" class="label_input">Email :</label>
+                        <input type="text" class="input_form" name="email" required>
+                    </div>
+                    <div>
+                        <label for="mdp" class="label_input">Mot de passe :</label>
+                        <input type="password" class="input_form" name="mdp" required>
+                    </div>
+                </div>
+                    <div id="boutton_submit_block">
+                        <input type="submit" value="Let's GO!" class="boutton_submit">
+                    </div> 
+            </div> 
+        </div>        
     </form>
-    
+    <footer>
+        <div id="footer_block_connexion">
+                <div id="pikachu_footer_3d_inscription">
+                    <img src="./images/pikachu_footer_3d.png" alt="pikachu_footer_3d">
+                </div>
+            <p class="text_footer">Copy Right©</p>
+            <p class="text_footer">Mentions Legales</p>
+            <p class="text_footer">Contactez-nous</p>
+        </div>
+    </footer>   
 </body>
 </html>
 

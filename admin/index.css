@@ -86,7 +86,7 @@ margin-left: 750px;
 }
 
 #footer_block{
-    background-color: rgb(114, 4, 85);
+    background-color: rgb(60, 7, 83);
     padding: 40px;
     margin-top: 420px;
     margin-bottom: none;
@@ -168,6 +168,19 @@ margin-left: 750px;
     left: 7%;
     top: 239%;
     position: absolute;
+}
+
+#footer_block_index{
+    background-color: rgb(114, 4, 85);
+    padding: 40px;
+    margin-top: 420px;
+    margin-bottom: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: PokemonLight;
+    color: white;
+    letter-spacing: 4px;
 }
 
 #body_details_page{
@@ -254,7 +267,7 @@ margin-left: 750px;
     color: white;
 }
 
-.input_inscription{
+.input_form{
     margin-right: 15px;
     padding: 10px;
     border-radius: 10%;
@@ -263,9 +276,14 @@ margin-left: 750px;
     backdrop-filter: brightness(80%);
 }
 
+.input_form:hover{
+    background-color: white;
+}
 
 
-.label_input_inscription{
+
+
+.label_input{
     font-size: 17px;
     font-family: PokemonLight;
     letter-spacing: 4px;
@@ -274,7 +292,7 @@ margin-left: 750px;
 
 
 
-#form_inscription{
+#form_content{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -287,7 +305,7 @@ margin-left: 750px;
     justify-content: center;
 }
 
-#boutton_inscrire{
+#boutton_submit_block{
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -305,22 +323,36 @@ margin-left: 750px;
     color: white;
 }
 .boutton_submit:hover{
+    cursor: pointer;
     font-size: 17px;
 }
 
-#image_ondine_inscription{
+#image_personnages_3d{
     position: absolute;
     margin-left: 820px;
     top: 18%;
 }
 
-.image_personnage_3d{
+.personnages_3d{
     width: 650px;
     height: 765px;
 }
 
-#main_inscription{
+#main_formulaire{
     margin: 35px;
+}
+
+#footer_block_inscription{
+    background-color: rgb(60, 7, 83);
+    padding: 40px;
+    margin-top: 418.5px;
+    margin-bottom: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: PokemonLight;
+    color: white;
+    letter-spacing: 4px;
 }
 
 #pikachu_footer_3d_inscription{
@@ -329,11 +361,33 @@ margin-left: 750px;
     position: absolute;
 }
 
+#page_connexion{
+    background-color: rgb(3, 6, 55);
+}
+
+.personnages_3d{
+    width: 650px;
+    height: 765px;
+}
 
 /* #formulaire_ajout_pokemon{
     padding: 10px;
 
 } */
+
+#footer_block_connexion{
+
+    background-color: rgb(60, 7, 83);
+    padding: 40px;
+    margin-top: 456px;
+    margin-bottom: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: PokemonLight;
+    color: white;
+    letter-spacing: 4px;
+}
 
 
 
