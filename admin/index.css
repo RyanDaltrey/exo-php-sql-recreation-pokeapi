@@ -42,7 +42,7 @@
     color: white;
     font-family: PokemonDark;
 }
-#nav_page_accueil{
+#nav_page{
     display: flex;
     justify-content:space-between;
     margin: 15px 40px 15px 40px;
@@ -229,7 +229,6 @@ margin-left: 750px;
 
 .card-text{
     font-family: PokemonLight;
-
 }
 
 #infos_pokemon{
@@ -239,7 +238,6 @@ margin-left: 750px;
     flex-direction: column;
     justify-content: space-between;
     padding: 80px;
-    
 }
 
 
@@ -252,7 +250,7 @@ margin-left: 750px;
     background-color: rgb(145, 10, 103);
 }
 
-#nav_page_inscription{
+#nav_page{
     display: flex;
     justify-content:space-between;
     margin: 15px 40px 15px 40px;
@@ -370,13 +368,8 @@ margin-left: 750px;
     height: 765px;
 }
 
-/* #formulaire_ajout_pokemon{
-    padding: 10px;
-
-} */
 
 #footer_block_connexion{
-
     background-color: rgb(60, 7, 83);
     padding: 40px;
     margin-top: 456px;
@@ -389,6 +382,68 @@ margin-left: 750px;
     letter-spacing: 4px;
 }
 
+#page_ajout_pokemon{
+    background-color: rgb(114, 4, 85);
+}
 
+#image_personnages_sacha_3d{
+    position: absolute;
+    margin-left: 750px;
+    top: 30%;
+}
 
+.boutton_option_ajout_pokemon{
+   background-color: rgb(3, 6, 55);
+   font-size: 12px;
+   padding: 15px;
+   border-radius: 10px;
+   border: none;
+   color: white;
+   font-family: PokemonDark;
+   letter-spacing: 6px;
+   margin: 20px;
+}
 
+.boutton_option_ajout_pokemon:hover{
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#form_content_ajout_pokemon{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+#content_input_ajout_pokemon{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-top: 5px;
+}
+
+#boutton_submit_block_ajout_pokemon{
+    display: flex;
+    margin-top: 20px;
+}
+
+#footer_block_ajout_pokemon{
+    background-color: rgb(3, 6, 55);
+    padding: 40px;
+    margin-top: 280px;
+    margin-bottom: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: PokemonLight;
+    color: white;
+    letter-spacing: 4px;
+}
+
+#pikachu_footer_3d_ajout_pokemon{
+    left: 7%;
+    top: 178%;
+    position: absolute;
+}

@@ -14,7 +14,7 @@ session_start();
 </head>
 <body id="page_inscription">
     <nav>
-        <div id="nav_page_inscription">
+        <div id="nav_page">
             <a href="index.php" ><button class="boutton_option">Les Pokémons</button></a>
             <div>
                 <h1 id="titre_inscription">Inscription</h1>
@@ -50,8 +50,7 @@ session_start();
                         <a href="connexion.php"><input type="submit" value="S'inscrire" class="boutton_submit"></a>
                     </div>
             </div>    
-        </div>
-                
+        </div>   
     </form>
     <footer>
         <div id="footer_block_inscription">

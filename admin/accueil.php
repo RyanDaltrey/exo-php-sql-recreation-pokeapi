@@ -13,7 +13,7 @@
 </head>
 <body id="page_accueil">
     <nav>
-        <div id="nav_page_accueil">
+        <div id="nav_page">
             <a href="index.php" ><button class="boutton_option">Les Pokémons</button></a>
             <a href="connexion.php"><button class="boutton_option">Connexion</button></a>
         </div>

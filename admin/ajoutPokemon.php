@@ -10,77 +10,105 @@
     <title>Ajout Pokémons</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
-    <div id="formulaire_ajout_pokemon">
-        <h2 class="mb-4">Ajoute ton pokémons</h2>
-        <form action="" method="POST">
-            <div class="form-group">
-                <label for="nom">Nom :</label>
-                <input type="text" id="nom" name="nom" class="form-control" required>
+<body id="page_ajout_pokemon">
+    <nav>
+        <div id="nav_page">
+            <a href="index.php"><button class="boutton_option_ajout_pokemon">Les Pokémons</button></a>
+            <div>
+                <h1 id="titre_inscription">Ajoute ton Pokémon !</h1>
             </div>
-            <div class="form-group">
-                <label for="taille">Taille :</label>
-                <input type="text" id="taille" name="taille" class="form-control" required>
-            </div>
-            <div class="form-group">
-                <label for="description">Description :</label>
-                <textarea id="descripton" name="description" class="form-control" required></textarea>
-            </div>
-            
-            <div class="form-group">
-                <label for="masse">Masse :</label>
-                <input type="number" id="masse" name="masse" class="form-control" required>
-            </div>
-            <div class="form-group">
-                <label for="hp">Hp :</label>
-                <input type="number" id="hp" name="hp" class="form-control" required>
-            </div>
-            <div class="form-group">
-                <label for="attack">Attack :</label>
-                <input type="number" id="attack" name="attack" class="form-control" required>
-            </div>
-            <div class="form-group">
-                <label for="defence">Defence :</label>
-                <input type="number" id="defence" name="defence" class="form-control" required>
-            </div>
-            <div class="form-group">
-                <label for="vitesse">Vitesse :</label>
-                <input type="number" id="vitesse" name="vitesse" class="form-control" required>
-            </div>
-            <div class="form-group"> 
-                <label for="defence_spe">Defence spé :</label>
-                <input type="number" id="defence_spe" name="defence_spe" class="form-control" required>
-            </div>
-            <div class="form-group"> 
-                <label for="attack_spe">Attack spé :</label>
-                <input type="number" id="attack_spe" name="attack_spe" class="form-control" required>
-            </div>
-            <div class="form-group"> 
-                <label for="img_poke">Img_poke :</label>
-                <input type="file" id="img_poke" name="img_poke" class="form-control">
-            </div>
-            <div class="form-group"> 
-                <label for="generation">Génération :</label>
-                <input type="number" id="generation" name="generation" class="form-control" required>
-            </div>
-            <div class="form-group"> 
-                <label for="version_app">Version :</label>
-                <input type="number" id="version_app" name="version_app" class="form-control" required>
-            </div>
-            <div class="form-group"> 
-                <label for="habitat">Habitat :</label>
-                <input type="number" id="habitat" name="habitat" class="form-control" required>
-            </div>
-            <div class="form-group"> 
-                <label for="competences">Compétences :</label>
-                <input type="number" id="competences" name="competences" class="form-control" required>
-            </div>
-            <div class="form-group"> 
-                <label for="categorie">Catégorie :</label>
-                <input type="number" id="categorie" name="categorie" class="form-control" required>
-            </div>
-                <button type="submit" class="btn btn-primary">Ajouter le Pokémon!</button>
+            <a href="accueil.php"><button class="boutton_option_ajout_pokemon">Accueil</button></a>
+        </div>
+    </nav>
+        <form action="" method="POST" class="formulaire">
+            <div id="main_formulaire">    
+                    <div id="image_personnages_sacha_3d">
+                        <img src="./images/sacha_3d.png" alt="sacha_3d" class="personnages_3d">
+                    </div>
+                <div id="form_content_ajout_pokemon">
+                    <div id="content_input_ajout_pokemon"> 
+                        <div>
+                            <label for="nom" class="label_input">Nom :</label>
+                            <input type="text" class="input_form" name="nom" required>
+                        </div>
+                        <div>
+                            <label for="taille" class="label_input">Taille :</label>
+                            <input type="text" class="input_form" name="taille" required>
+                        </div>
+                        <div>
+                            <label for="description" class="label_input">Description :</label>
+                            <textarea class="input_form" name="description" required></textarea>
+                        </div>
+                        
+                        <div>
+                            <label for="masse" class="label_input">Masse :</label>
+                            <input type="number" class="input_form" name="masse" required>
+                        </div>
+                        <div>
+                            <label for="hp" class="label_input">Hp :</label>
+                            <input type="number" class="input_form" name="hp" required>
+                        </div>
+                        <div>
+                            <label for="attack" class="label_input">Attack :</label>
+                            <input type="number" class="input_form" name="attack" required>
+                        </div>
+                        <div>
+                            <label for="defence" class="label_input">Defence :</label>
+                            <input type="number" class="input_form" name="defence" required>
+                        </div>
+                        <div>
+                            <label for="vitesse" class="label_input">Vitesse :</label>
+                            <input type="number" class="input_form" name="vitesse" required>
+                        </div>
+                        <div> 
+                            <label for="defence_spe" class="label_input">Defence spé :</label>
+                            <input type="number" class="input_form" name="defence_spe" required>
+                        </div>
+                        <div> 
+                            <label for="attack_spe" class="label_input">Attack spé :</label>
+                            <input type="number" class="input_form" name="attack_spe" required>
+                        </div>
+                        <div> 
+                            <label for="img_poke" class="label_input">Img_poke :</label>
+                            <input type="file" class="input_form" name="img_poke">
+                        </div>
+                        <div> 
+                            <label for="generation" class="label_input">Génération :</label>
+                            <input type="number" class="input_form" name="generation" required>
+                        </div>
+                        <div> 
+                            <label for="version_app" class="label_input">Version :</label>
+                            <input type="number" class="input_form" name="version_app" required>
+                        </div>
+                        <div> 
+                            <label for="habitat" class="label_input">Habitat :</label>
+                            <input type="number" class="input_form" name="habitat" required>
+                        </div>
+                        <div> 
+                            <label for="competences" class="label_input">Compétences :</label>
+                            <input type="number" class="input_form" name="competences" required>
+                        </div>
+                        <div> 
+                            <label for="categorie" class="label_input">Catégorie :</label>
+                            <input type="number" class="input_form" name="categorie" required>
+                        </div>
+                    </div>    
+                        <div id="boutton_submit_block_ajout_pokemon">
+                            <button type="submit" class="boutton_submit" >Ajouter le Pokémon!</button>
+                        </div>
+                </div>    
+            </div>        
         </form>
+        <footer>
+            <div id="footer_block_ajout_pokemon">
+                    <div id="pikachu_footer_3d_ajout_pokemon">
+                        <img src="./images/pikachu_footer_3d.png" alt="pikachu_footer_3d">
+                    </div>
+                <p class="text_footer">Copy Right©</p>
+                <p class="text_footer">Mentions Legales</p>
+                <p class="text_footer">Contactez-nous</p>
+            </div>
+        </footer>
     </div>
 </body>
 </html>

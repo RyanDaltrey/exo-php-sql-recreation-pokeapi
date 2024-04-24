@@ -14,7 +14,7 @@
 </head>
 <body id="page_connexion">
     <nav>
-        <div id="nav_page_inscription">
+        <div id="nav_page">
             <a href="index.php" ><button class="boutton_option">Les Pokémons</button></a>
             <div>
                 <h1 id="titre_inscription">Connexion</h1>
