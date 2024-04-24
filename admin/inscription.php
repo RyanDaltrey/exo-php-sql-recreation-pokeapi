@@ -12,26 +12,42 @@ session_start();
     <link rel="stylesheet" href="index.css">
     <title>Inscription</title>
 </head>
-<body>
-    <form method="POST" action="">
+<body id="page_inscription">
+    <form method="POST" action="" class="formulaire">
         <div>
-                <label for="nom">Nom :</label>
-                <input type="text" id="nom_inscription" name="nom" required>
+            <h1 id="titre_inscription">Inscription</h1>
         </div>
-        <div>
-                <label for="penom">Prenom :</label>
-                <input type="text" id="prenom_inscription" name="prenom" required>
+        <div id="main_inscription">
+                <div id="image_ondine_inscription">
+                    <img src="./images/ondine_3d.png" alt="ondine_3d" class="image_personnage_3d">
+                </div>
+            <div id="form_inscription">   
+                <div id="content_input"> 
+                    <div>
+                            <label for="nom" class="label_input_inscription">Nom :</label>
+                            <input type="text" class="input_inscription" name="nom" required>
+                    </div>
+                    <div>
+                            <label for="penom" class="label_input_inscription">Prenom :</label>
+                            <input type="text" class="input_inscription" name="prenom" required>
+                    </div>
+                    <div>
+                            <label for="email" class="label_input_inscription">Email :</label>
+                            <input type="text" class="input_inscription" name="email" required>
+                    </div>
+                    <div>
+                            <label for="mdp" class="label_input_inscription">Mot de passe :</label>
+                            <input type="password" class="input_inscription" name="mdp" required>
+                    </div>
+                </div>
+                    <div id="boutton_inscrire">              
+                        <input type="submit" value="S'inscrire" class="boutton_submit">
+                    </div>
+            </div>    
         </div>
-        <div>
-                <label for="email">Email :</label>
-                <input type="text" id="email_inscription" name="email" required>
-        </div>
-        <div>
-                <label for="mdp">Mot de passe :</label>
-                <input type="password" id="mdp_inscription" name="mdp" required>
-        </div>
-                <input type="submit" value="S'inscrire">
+                
     </form>
+
 </body>
 </html>
 
