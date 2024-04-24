@@ -23,9 +23,6 @@ session_start();
         </div>
     </nav>
     <form method="POST" action="" class="formulaire">
-        <!-- <div>
-            <h1 id="titre_inscription">Inscription</h1>
-        </div> -->
         <div id="main_inscription">
                 <div id="image_ondine_inscription">
                     <img src="./images/ondine_3d.png" alt="ondine_3d" class="image_personnage_3d">
@@ -50,12 +47,22 @@ session_start();
                     </div>
                 </div>
                     <div id="boutton_inscrire">              
-                        <input type="submit" value="S'inscrire" class="boutton_submit">
+                        <a href="connexion.php"><input type="submit" value="S'inscrire" class="boutton_submit"></a>
                     </div>
             </div>    
         </div>
                 
     </form>
+    <footer>
+        <div id="footer_block">
+                <div id="pikachu_footer_3d_inscription">
+                    <img src="./images/pikachu_footer_3d.png" alt="pikachu_footer_3d">
+                </div>
+            <p class="text_footer">Copy Right©</p>
+            <p class="text_footer">Mentions Legales</p>
+            <p class="text_footer">Contactez-nous</p>
+        </div>
+    </footer>
 
 </body>
 </html>
