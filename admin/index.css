@@ -44,8 +44,8 @@
 }
 #nav_page_accueil{
     display: flex;
-    justify-content: space-around;
-    margin: 15px;
+    justify-content:space-between;
+    margin: 15px 40px 15px 40px;
 }
 
 .boutton_option{
@@ -115,8 +115,9 @@ margin-left: 820px;
 #nav_page_index{
     display: flex;
     justify-content:space-between;
-    margin: 15px;
+    margin: 15px 40px 15px 40px;
 }
+
 .boutton_option_page_index{
     font-size: 12px;
     padding: 15px;
@@ -237,17 +238,20 @@ margin-left: 820px;
     background-color: rgb(145, 10, 103);
 }
 
+#nav_page_inscription{
+    display: flex;
+    justify-content:space-between;
+    margin: 15px 40px 15px 40px;
+}
+
 #titre_inscription{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
     font-family: PokemonDark;
     letter-spacing: 6px;
     font-size: 60px;
     color: white;
 }
-
-
 
 .input_inscription{
     margin-right: 15px;

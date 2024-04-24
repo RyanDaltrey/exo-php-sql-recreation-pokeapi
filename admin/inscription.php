@@ -13,10 +13,19 @@ session_start();
     <title>Inscription</title>
 </head>
 <body id="page_inscription">
-    <form method="POST" action="" class="formulaire">
-        <div>
-            <h1 id="titre_inscription">Inscription</h1>
+    <nav>
+        <div id="nav_page_inscription">
+            <a href="index.php" ><button class="boutton_option">Les Pokémons</button></a>
+            <div>
+                <h1 id="titre_inscription">Inscription</h1>
+            </div>
+            <a href="connexion.php"><button class="boutton_option">Connexion</button></a>
         </div>
+    </nav>
+    <form method="POST" action="" class="formulaire">
+        <!-- <div>
+            <h1 id="titre_inscription">Inscription</h1>
+        </div> -->
         <div id="main_inscription">
                 <div id="image_ondine_inscription">
                     <img src="./images/ondine_3d.png" alt="ondine_3d" class="image_personnage_3d">
