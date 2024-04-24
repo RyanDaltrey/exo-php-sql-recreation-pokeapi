@@ -13,11 +13,10 @@
 </head>
 <body id="page_accueil">
     <nav>
-        <div id="block_page_accueil">
-            <div id="option_page_accueil">
-                <a href="index.php" ><button class="boutton_option">Les Pokémons</button></a>
-                <a href="connexion.php"><button class="boutton_option">Connexion</button></a>
-            </div>
+        <div id="nav_page_accueil">
+            <a href="index.php" ><button class="boutton_option">Les Pokémons</button></a>
+            <a href="connexion.php"><button class="boutton_option">Connexion</button></a>
+        </div>
     </nav>
     <main>
         <div id="content_page_accueil">
