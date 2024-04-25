@@ -106,7 +106,7 @@
                     </div>
                 <p class="text_footer">Copy Right©</p>
                 <p class="text_footer">Mentions Legales</p>
-                <p class="text_footer">Contactez-nous</p>
+                <p class="text_footer">Contactez-nous : Pokemongo@hotmail.com</p>
             </div>
         </footer>
     </div>

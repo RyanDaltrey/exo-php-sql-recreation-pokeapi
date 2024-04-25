@@ -31,12 +31,12 @@
     </main>
     <footer>
         <div id="footer_block">
-                <div id="pikachu_footer_3d">
+                <div id="pikachu_footer_3d_accueil">
                     <img src="./images/pikachu_footer_3d.png" alt="pikachu_footer_3d">
                 </div>
             <p class="text_footer">Copy Right©</p>
             <p class="text_footer">Mentions Legales</p>
-            <p class="text_footer">Contactez-nous</p>
+            <p class="text_footer">Contactez-nous : Pokemongo@hotmail.com</p>
         </div>
     </footer>
 </body>
