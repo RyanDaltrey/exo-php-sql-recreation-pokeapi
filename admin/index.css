@@ -3,6 +3,7 @@
     box-sizing: none;
 }
 
+
 @font-face {
     font-family: PokemonLight;
     src: url(./fonts/Pokemon\ Hollow.ttf);
@@ -73,40 +74,18 @@
  display: flex;
 }
 
-
-
 #content_image_3d_pikachu{
-position: absolute;
-margin-left: 750px;
+    position: relative;
 }
 
-
-#image_3d_pikachu{
-    position: absolute;
-}
-
-#footer_block{
-    background-color: rgb(60, 7, 83);
-    padding: 40px;
-    margin-top: 420px;
-    margin-bottom: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-family: PokemonLight;
-    color: white;
-    letter-spacing: 4px;
+.main{
+    min-height: 100vh;
 }
 
 .text_footer:hover{
     cursor: pointer;
 }
 
-#pikachu_footer_3d_accueil{
-   left: 7%;
-   top: 112%;
-   position: absolute;
-}
 
 #page_index{
     background-color: rgb(60, 7, 83);
@@ -459,4 +438,14 @@ margin-left: 750px;
 .mdp{
     color: white;
     font-size: 30px;
+}
+
+#footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }

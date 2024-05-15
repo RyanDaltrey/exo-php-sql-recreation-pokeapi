@@ -99,7 +99,40 @@
                 </div>    
             </div>        
         </form>
-        <footer>
+        <style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(60, 7, 83);
+  text-align: center;
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: PokemonLight;
+    color: white;
+    letter-spacing: 4px;
+    z-index: -1;
+}
+</style>
+<style>
+.img_pika_accueil {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+</style>
+    <div class="img_pika_accueil">
+    <img src="./images/pikachu_footer_3d.png" alt="" class="pika">
+    </div>
+    <footer class="footer">
+        <p> CopyRight ©</p>
+        <p> Mentions Légales</p>
+        <p> Pokemongo@hotmail.com</p>
+    </footer>
+        <!-- <footer>
             <div id="footer_block_ajout_pokemon">
                     <div id="pikachu_footer_3d_ajout_pokemon">
                         <img src="./images/pikachu_footer_3d.png" alt="pikachu_footer_3d">
@@ -108,8 +141,8 @@
                 <p class="text_footer">Mentions Legales</p>
                 <p class="text_footer">Contactez-nous : Pokemongo@hotmail.com</p>
             </div>
-        </footer>
-    </div>
+        </footer> -->
+
 </body>
 </html>
 
